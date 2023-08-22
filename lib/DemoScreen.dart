@@ -14,8 +14,13 @@ class _DemoScreenState extends State<DemoScreen> {
       appBar: AppBar(
         title: const Text("Demo"),
       ),
-      body: const Center(
-        child: Text("Demo"),
+      body: const Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Center(
+            child: Text("Demo"),
+          ),
+        ],
       ),
     );
   }
